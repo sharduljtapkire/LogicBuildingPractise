@@ -1,0 +1,103 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  File name   : Program313.java
+//
+//  Description : Doubly Circular Linked List (DCLL) in Java
+//                Implements InsertFirst and InsertLast (partial skeleton)
+//
+//  Author      : Shardul Tapkire
+//  Date        : 24/09/2025
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+class Node
+{
+    int data;
+    Node next;
+    Node prev;
+
+    public Node(int data)
+    {
+        this.data = data;
+        this.next = null;
+        this.prev = null;
+    }
+}
+
+class DoublyCLL
+{
+    private Node first;
+    private Node last;
+    private int iCount;
+
+    public DoublyCLL()
+    {
+        System.out.println("Inside Constructor");
+        this.first = null;
+        this.last = null;
+        this.iCount = 0;
+    }
+
+    public void insertFirst(int no)
+    {
+        Node newn = new Node(no);
+
+        if(first == null && last == null)   // LL is empty
+        {
+            first = newn;
+            last = newn;
+        }
+        else   // LL contains at least one node
+        {
+            newn.next = first;
+            first.prev = newn;
+            first = newn;
+        }
+
+        last.next = first;
+        first.prev = last;
+
+        iCount++;
+    }
+
+    public void insertLast(int no)
+    {
+        Node newn = new Node(no);
+
+        if(first == null && last == null)   // LL is empty
+        {
+            first = newn;
+            last = newn;
+        }
+        else   // LL contains at least one node
+        {
+            newn.prev = last;
+            last.next = newn;
+            last = newn;
+        }
+
+        last.next = first;
+        first.prev = last;
+
+        iCount++;
+    }
+
+    // Additional methods like InsertAtPos, DeleteFirst, DeleteLast can be implemented later
+}
+
+public class Program313
+{
+    public static void main(String[] args)
+    {
+        DoublyCLL dobj = new DoublyCLL();
+
+        dobj.insertFirst(51);
+        dobj.insertFirst(21);
+        dobj.insertFirst(11);
+
+        dobj.insertLast(101);
+        dobj.insertLast(111);
+
+        // Display method can be implemented to show elements
+    }
+}
