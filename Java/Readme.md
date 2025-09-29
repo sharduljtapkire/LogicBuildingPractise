@@ -1,20 +1,35 @@
-Perfect! Here's your **updated README** including Programs 1–633, fully integrated into your existing structure with proper sections and tables:
-
----
-
-# Java Programming Collection (Program1–Program633)
+# Java Programming Collection (Program1–Program648)
 
 ## Overview
 
-This repository contains an extensive collection of **633 Java programs** developed by **Shardul Tapkire**, showcasing progressive learning of Java programming concepts from beginner to advanced. Topics include syntax, object-oriented programming, data structures, algorithms, file systems, mathematical computing, bitwise operations, and system-level programming.
+This repository contains an extensive collection of **648 Java programs** developed by **Shardul Tapkire**, showcasing progressive learning of Java programming concepts from beginner to advanced. Topics include syntax, object-oriented programming, data structures, algorithms, file systems, mathematical computing, bitwise operations, and system-level programming.
 
 The programs are organized into categories that mirror a structured learning progression.
 
 ---
 
-## Program Categories
+## Table of Contents
 
-### 1. Foundation Programs (Program1–Program53)
+1. [Foundation Programs (Program1–Program53)](#1-foundation-programs-program1–program53)
+2. [Pattern Printing Programs (Program54–Program96)](#2-pattern-printing-programs-program54–program96)
+3. [Arrays and Operations (Program97–Program121)](#3-arrays-and-operations-program97–program121)
+4. [String Manipulation (Program122–Program175)](#4-string-manipulation-program122–program175)
+5. [File Operations & I/O (Program176–Program220)](#5-file-operations--io-program176–program220)
+6. [Mathematical Computing (Program221–Program270)](#6-mathematical-computing-program221–program270)
+7. [Data Structures & Algorithms (Program271–Program597)](#7-data-structures--algorithms-program271–program597)
+8. [IP Address & Bitwise Operations (Program598–Program617)](#8-ip-address--bitwise-operations-program598–program617)
+9. [Binary Arrays & String Manipulation (Program618–Program627)](#9-binary-arrays--string-manipulation-program618–program627)
+10. [File Encryption & Decryption (Program628–Program633)](#10-file-encryption--decryption-program628–program633)
+11. [Generic Stack & Queue (Program634–Program637)](#11-generic-stack--queue-program634–program637)
+12. [Singly Circular Linked List (Program638–Program642)](#12-singly-circular-linked-list-program638–program642)
+13. [Combined Data Structure Implementations (Program643)](#13-combined-data-structure-implementations-program643)
+14. [Doubly Circular Linked List (Program644–Program646)](#14-doubly-circular-linked-list-program644–program646)
+15. [Merged Data Structures & Algorithms (Program647)](#15-merged-data-structures--algorithms-program647)
+16. [Singly Linear Linked List (Program648)](#16-singly-linear-linked-list-program648)
+
+---
+
+## 1. Foundation Programs (Program1–Program53)
 
 **Focus:** Basic syntax, control structures, input/output operations, and simple mathematical/logical tasks.
 
@@ -29,7 +44,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 2. Pattern Printing Programs (Program54–Program96)
+## 2. Pattern Printing Programs (Program54–Program96)
 
 **Focus:** Nested loops, number/alphabet patterns, and basic 2D grid designs.
 
@@ -41,7 +56,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 3. Arrays and Operations (Program97–Program121)
+## 3. Arrays and Operations (Program97–Program121)
 
 **Focus:** Array manipulation, searching, sorting, and statistical operations.
 
@@ -54,7 +69,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 4. String Manipulation (Program122–Program175)
+## 4. String Manipulation (Program122–Program175)
 
 **Focus:** Character classification, string analysis, text processing, and algorithms.
 
@@ -67,7 +82,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 5. File Operations & I/O (Program176–Program220)
+## 5. File Operations & I/O (Program176–Program220)
 
 **Focus:** File handling and input/output stream operations.
 
@@ -79,7 +94,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 6. Mathematical Computing (Program221–Program270)
+## 6. Mathematical Computing (Program221–Program270)
 
 **Focus:** Bitwise operations, number theory, and generics.
 
@@ -92,7 +107,7 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 7. Data Structures & Algorithms (Program271–Program597)
+## 7. Data Structures & Algorithms (Program271–Program597)
 
 **Focus:** Advanced data structure implementation and algorithms.
 
@@ -111,66 +126,85 @@ The programs are organized into categories that mirror a structured learning pro
 
 ---
 
-### 8. IP Address Manipulation & Bitwise Operations (Program598–Program617)
+## 8. IP Address & Bitwise Operations (Program598–Program617)
 
 **Focus:** IP address input/display, bitwise operations, number analysis, and array manipulation.
 
-| Program No. | File Name       | Description                                                                                                           |
-| ----------- | --------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 598         | Program598.java | Accepts an IP address as four integers and displays it in standard dotted format.                                     |
-| 599         | Program599.java | Accepts an IP address as four integers, stores them in an object, and displays a placeholder combined representation. |
-| 600         | Program600.java | Accepts four integers, forms a combined representation of an IP address (placeholder).                                |
-| 601         | Program601.java | Similar to Program600, accepts four integers and forms a combined IP representation.                                  |
-| 602         | Program602.java | Converts four integers of an IP address into a single 32-bit integer using bitwise operations.                        |
-| 603         | Program603.java | Converts four integers to 32-bit integer, displays it, then splits back to dotted IP format.                          |
-| 604         | Program604.java | Similar to Program603 but intended for unsigned integer display.                                                      |
-| 605         | Program605.java | Uses `long` type for proper unsigned display when splitting combined IP representation.                               |
-| 606         | Program606.java | Determines whether a user-input integer is odd or even using bitwise AND.                                             |
-| 607         | Program607.java | Determines odd/even using bitwise AND with hexadecimal mask.                                                          |
-| 608         | Program608.java | Swaps two integers using bitwise XOR without a temporary variable.                                                    |
-| 609         | Program609.java | Counts the number of ON bits (1s) in an integer.                                                                      |
-| 610         | Program610.java | Counts ON bits using a concise arithmetic approach.                                                                   |
-| 611         | Program611.java | Counts ON bits using bitwise operations with a mask.                                                                  |
-| 612         | Program612.java | Counts ON bits using Brian Kernighan's efficient bitwise algorithm.                                                   |
-| 613         | Program613.java | Checks whether a number is a power of 2 using Brian Kernighan's algorithm.                                            |
-| 614         | Program614.java | Optimized power-of-2 check using early exit in Brian Kernighan's algorithm.                                           |
-| 615         | Program615.java | Checks power-of-2 using `(No & (No - 1)) == 0` expression.                                                            |
-| 616         | Program616.java | Finds the non-paired element in an array where all others occur in pairs.                                             |
-| 617         | Program617.java | Efficiently finds the non-paired element using XOR operation.                                                         |
+| Program No. | File Name                         | Description                                                                                             |
+| ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 598–617     | Program598.java – Program617.java | IP address manipulation, odd/even checks, bit counting, power-of-2 checks, non-paired element detection |
 
 ---
 
-### 9. Binary Arrays & String Manipulation (Program618–Program627)
+## 9. Binary Arrays & String Manipulation (Program618–Program627)
 
 **Focus:** Binary array segregation, sentence/word processing, and string encryption/decryption.
 
-| Program No. | File Name       | Description                                                                                     |
-| ----------- | --------------- | ----------------------------------------------------------------------------------------------- |
-| 618         | Program618.java | Segregates 0s and 1s in a binary array using counting (O(2N) approach).                         |
-| 619         | Program619.java | Segregates 0s and 1s in a binary array using a two-pointer approach (O(N) without extra space). |
-| 620         | Program620.java | Cleans up a sentence by removing extra spaces and displays it.                                  |
-| 621         | Program621.java | Cleans a sentence and rearranges words in ascending order of length.                            |
-| 622         | Program622.java | Encrypts a string by incrementing ASCII values by 1.                                            |
-| 623         | Program623.java | Encrypts and decrypts a string by incrementing/decrementing ASCII values.                       |
-| 624         | Program624.java | Encrypts/decrypts a string by adding/subtracting a key to ASCII values.                         |
-| 625         | Program625.java | Encrypts/decrypts a string using XOR with key 11.                                               |
-| 626         | Program626.java | Encrypts/decrypts a string using XOR with a character key.                                      |
-| 627         | Program627.java | Displays ASCII values, encrypts/decrypts using XOR, and shows ASCII values after each step.     |
+| Program No. | File Name                         | Description                                                                             |
+| ----------- | --------------------------------- | --------------------------------------------------------------------------------------- |
+| 618–627     | Program618.java – Program627.java | Segregates binary arrays, cleans sentences, encrypts/decrypts strings, ASCII operations |
 
 ---
 
-### 10. File Encryption & Decryption (Program628–Program633)
+## 10. File Encryption & Decryption (Program628–Program633)
 
 **Focus:** File handling, XOR/Caesar ciphers, buffered read/write, and verification.
 
-| Program No. | File Name       | Description                                                                                 |
-| ----------- | --------------- | ------------------------------------------------------------------------------------------- |
-| 628         | Program628.java | Encrypts a source file using XOR cipher with a key and writes to a destination file.        |
-| 629         | Program629.java | Encrypts a source file using XOR with a key and buffer, writes to destination.              |
-| 630         | Program630.java | Encrypts/decrypts a source file using XOR with buffer, verifies original content.           |
-| 631         | Program631.java | Similar to Program630 with XOR encryption/decryption and verification.                      |
-| 632         | Program632.java | Implements XOR and Caesar ciphers for file encryption/decryption using a 1024-byte buffer.  |
-| 633         | Program633.java | Implements Caesar and XOR ciphers for file encryption/decryption with buffer and key input. |
+| Program No. | File Name                         | Description                                                                               |
+| ----------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
+| 628–633     | Program628.java – Program633.java | XOR and Caesar file encryption/decryption with buffer, verification, key-based operations |
+
+---
+
+## 11. Generic Stack & Queue (Program634–Program637)
+
+**Focus:** Generic implementations of Stack and Queue using Linked Lists, supporting push/pop/enqueue/dequeue/display/count operations.
+
+| Program No. | File Name                         | Description                                              |
+| ----------- | --------------------------------- | -------------------------------------------------------- |
+| 634–637     | Program634.java – Program637.java | Stack and Queue generic implementations with linked list |
+
+---
+
+## 12. Singly Circular Linked List (Program638–Program642)
+
+**Focus:** Generic and standard implementations of Singly Circular Linked List with full insertion, deletion, display, and count operations.
+
+| Program No. | File Name                         | Description                                                                                   |
+| ----------- | --------------------------------- | --------------------------------------------------------------------------------------------- |
+| 638–642     | Program638.java – Program642.java | Singly Circular Linked List (generic/standard) with Insert, Delete, Display, Count operations |
+
+---
+
+## 13. Combined Data Structure Implementations (Program643)
+
+| Program No. | File Name       | Description                                                                                  |
+| ----------- | --------------- | -------------------------------------------------------------------------------------------- |
+| 643         | Program643.java | Generic implementations of Queue, Stack, and Singly Circular Linked List with all operations |
+
+---
+
+## 14. Doubly Circular Linked List (Program644–Program646)
+
+| Program No. | File Name                         | Description                                                                        |
+| ----------- | --------------------------------- | ---------------------------------------------------------------------------------- |
+| 644–646     | Program644.java – Program646.java | Generic Doubly Circular Linked List with Insert, Delete, Display, Count operations |
+
+---
+
+## 15. Merged Data Structures & Algorithms (Program647)
+
+| Program No. | File Name       | Description                                                                                                                         |
+| ----------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| 647         | Program647.java | Comprehensive file including Queue, Stack, SinglyLL, DoublyLL, SinglyCLL, DoublyCLL, BST, Sorting, Searching, and number properties |
+
+---
+
+## 16. Singly Linear Linked List (Program648)
+
+| Program No. | File Name       | Description                                                                           |
+| ----------- | --------------- | ------------------------------------------------------------------------------------- |
+| 648         | Program648.java | Generic Singly Linear Linked List supporting Add, Insert, Delete, Reverse, and Search |
 
 ---
 
@@ -179,15 +213,16 @@ The programs are organized into categories that mirror a structured learning pro
 * **Beginner (Programs 1–100):** Control structures, arrays, basic I/O
 * **Intermediate (Programs 101–300):** Strings, files, OOP, algorithms
 * **Advanced (Programs 301–633):** Data structures, system programming, IP & bitwise operations, encryption, custom file systems
+* **Expert / Generic Implementations (Programs 634–648):** Generic Stack, Queue, Singly & Doubly Circular Linked Lists, combined data structures, comprehensive algorithms
 
 ---
 
 ## Technical Skills Covered
 
-* **Core Java:** Syntax, OOP, Exception Handling
-* **Data Structures:** Arrays, Linked Lists, Stacks, Queues, Trees, Graphs
-* **Algorithms:** Sorting, Searching, Dynamic Programming
-* **File I/O:** Stream handling, virtual file systems
+* **Core Java:** Syntax, OOP, Generics, Exception Handling
+* **Data Structures:** Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Circular/Linear Linked Lists
+* **Algorithms:** Sorting, Searching, Dynamic Programming, Number property checks
+* **File I/O:** Stream handling, virtual file systems, encryption/decryption
 * **System Programming:** Command execution, shells
 * **Mathematical & Bitwise Computing:** Bit manipulation, number theory, encryption techniques
 
@@ -212,4 +247,3 @@ Replace `X` with the program number (e.g., `Program121.java`).
 Java programming collection demonstrating **progressive learning from basic to advanced concepts**.
 
 ---
-
